@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Starbucks</title>
+</head>
+<body>
+  <header>
+    <img src="imagens/logo.png" alt="Logo" id="logo">
+  </header>
+  <section id="conteudo">
+    <div id="textos">
+      <h2>It's not just Coffe It's <span>Starbucks</span></h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, dolor iure quam eum quisquam culpa
+      necessitatibus vitae, non repellat, laboriosam esse minus. Repudiandae est, quibusdam nihil quae
+      voluptates
+      dolorum. Laboriosam!</p>
+      <button id="botao" onclick="alert('Comprado')">Comprar</button>
+    </div>
+    <div id="img">
+      <img src="imagens/img1.png" id="imagem-copo">
+    </div>
+  </section>
+  <nav>
+    <img src="imagens/thumb1.png" class="botao-menu" onclick="mudarImagem('imagens/img1.png'); corCirculo('#017143')">
+    <img src="imagens/thumb2.png" class="botao-menu" onclick="mudarImagem('imagens/img2.png'); corCirculo('#eebac4')">
+    <img src="imagens/thumb3.png" class="botao-menu" onclick="mudarImagem('imagens/img3.png'); corCirculo('#c03084')">
+  </nav>
+  <div id="circulo"></div>
+</body>
+</html>
