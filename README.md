@@ -1,4 +1,4 @@
-<h3 align="center">Starlucks<br/><a href="https://murilloantoniobento.github.io/Starlucks/">murilloantoniobento.github.io/Starlucks</a></h3>
+<h3 align="center">Starlucks<br/><a href="https://murilloantoniobento.github.io/Starlucks/">murilloantoniobento.github.io/Starlucks/</a></h3>
 
 #### Tecnologias
 
